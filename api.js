@@ -5,7 +5,7 @@ const {
     DeleteItemCommand,
     ScanCommand,
     UpdateItemCommand
-} = require('@aws-sdk/util-dynamodb');
+} = require('@aws-sdk/client-dynamodb');
 
 const { marshall, unmarshall } = require('@aws-sdk/util-dynamodb');
 
